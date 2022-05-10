@@ -118,10 +118,29 @@
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="p4X-K3-quW"/>
+                    <connections>
+                        <segue destination="6w8-K7-o2N" kind="show" identifier="tela3" id="ppk-HS-QUM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIH-Ii-Wwy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="689" y="-2205"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ute-Ly-Ws2">
+            <objects>
+                <viewController id="6w8-K7-o2N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vuz-DX-lqx">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="984"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="f6E-NP-wzJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ytd-Ez-j29"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rIh-b8-0AT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1425" y="-2205"/>
         </scene>
     </scenes>
     <resources>
