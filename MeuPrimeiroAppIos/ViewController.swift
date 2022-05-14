@@ -29,7 +29,12 @@ class ViewController: UIViewController {
         }
             else
         {
-            print("Wrong user or password")
+                let alert = UIAlertController(title: "Alert",
+                message: "Erro no Login", preferredStyle:
+                    UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style:
+                    UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
             
         }
         
