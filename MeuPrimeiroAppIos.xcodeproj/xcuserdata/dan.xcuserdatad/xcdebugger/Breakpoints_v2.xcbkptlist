@@ -20,5 +20,114 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBC6338D-84EB-4903-B6D1-87BE18EC45D8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MeuPrimeiroAppIos/TableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MeuPrimeiroAppIos/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171 - e19b848014692843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeuPrimeiroAppIos.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MeuPrimeiroAppIos.ViewController"
+                  moduleName = "MeuPrimeiroAppIos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/MeuPrimeiroAppIos/MeuPrimeiroAppIos/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171 - e0e15f274e63c3ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeuPrimeiroAppIos.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MeuPrimeiroAppIos.ViewController"
+                  moduleName = "MeuPrimeiroAppIos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/MeuPrimeiroAppIos/MeuPrimeiroAppIos/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171 - e1a2c72166fc5a45"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeuPrimeiroAppIos.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MeuPrimeiroAppIos.ViewController&gt;"
+                  moduleName = "MeuPrimeiroAppIos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/MeuPrimeiroAppIos/MeuPrimeiroAppIos/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171 - d593ed14d38ee7c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeuPrimeiroAppIos.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MeuPrimeiroAppIos.ViewController&gt;"
+                  moduleName = "MeuPrimeiroAppIos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/MeuPrimeiroAppIos/MeuPrimeiroAppIos/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6E8AE153-A69B-49C7-BBE6-CC0F5F765171 - 1856d04dc5a7b5d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MeuPrimeiroAppIos.ViewController.__deallocating_deinit"
+                  moduleName = "MeuPrimeiroAppIos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dan/Desktop/MeuPrimeiroAppIos/MeuPrimeiroAppIos/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

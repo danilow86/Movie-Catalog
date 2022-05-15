@@ -2,12 +2,16 @@
 //  TableViewController.swift
 //  MeuPrimeiroAppIos
 //
-//  Created by Dan on 15/05/2022.
+//  Created by Dan on 14/05/2022.
 //
 
 import UIKit
 
-class TableViewController: UITableViewController {
+private let reuseIdentifier = "Cell"
+
+class FavoriteCollectionViewController: UICollectionViewController {
+    
+    //var filmes = ["Django Unchained", "12 years a slave", "Get out", "Moonlight", "Million dollar baby", "Toy Story", "Tropa de Elite", "Irreversible", "Black Panther", "Saw"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +40,6 @@ class TableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
         cell.textLabel?.text = DataFilms.films[indexPath.row].name
-
         // Configure the cell...
 
         return cell

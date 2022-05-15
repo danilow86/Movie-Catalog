@@ -19,11 +19,48 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    
+    func createFilms(){
+        let film1 = Film(name: "Django Unchained", imageName: "django", isMyFavorite: true)
+        
+        let film2 = Film(name: "12 years a slave", imageName: "twelveYearsSlave", isMyFavorite: true)
+        
+        let film3 = Film(name: "Get out", imageName: "getOut", isMyFavorite: true)
+        
+        let film4 = Film(name: "Moonlight", imageName: "moonlight", isMyFavorite: false)
+        
+        let film5 = Film(name: "Million dollar baby", imageName: "millionDollarBaby", isMyFavorite: true)
+        
+        let film6 = Film(name: "Toy Story", imageName: "toyStory", isMyFavorite: false)
+        
+        let film7 = Film(name: "Elite Squad", imageName: "eliteSquad", isMyFavorite: true)
+        
+        let film8 = Film(name: "Irreversible", imageName: "irreversible", isMyFavorite: false)
+        
+        let film9 = Film(name: "Black Panther", imageName: "blackPanther", isMyFavorite: false)
+        
+        let film10 = Film(name: "Saw", imageName: "saw", isMyFavorite: false)
+        
+        
+        DataFilms.films.append(film1)
+        DataFilms.films.append(film2)
+        DataFilms.films.append(film3)
+        DataFilms.films.append(film4)
+        DataFilms.films.append(film5)
+        DataFilms.films.append(film6)
+        DataFilms.films.append(film7)
+        DataFilms.films.append(film8)
+        DataFilms.films.append(film9)
+        DataFilms.films.append(film10)
+    }
 
 
     @IBAction func openAction(_ sender: Any) {
         
         if (txtLogin.text == "danilo" && txtPassword.text == "1234"){
+            DataFilms.films.removeAll()
+            createFilms()
             performSegue(withIdentifier: "tela2", sender: self)
             
         }
