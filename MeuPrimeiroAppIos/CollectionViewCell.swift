@@ -9,9 +9,9 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    
     @IBOutlet weak var imageViewFavorite: UIImageView!
-    
     @IBOutlet weak var lblTitleFavorite: UILabel!
+    //@IBOutlet weak var imageViewFavorite: UIImageView!
+    //@IBOutlet weak var lblTitleFavorite: UILabel!
 
 }

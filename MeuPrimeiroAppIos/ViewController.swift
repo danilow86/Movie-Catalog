@@ -22,9 +22,9 @@ class ViewController: UIViewController {
     
     
     func createFilms(){
-        let film1 = Film(name: "Django Unchained", imageName: "django", isMyFavorite: true)
+        let film1 = Film(name: "coracao Valente", imageName: "coracaoValente", isMyFavorite: true)
         
-        let film2 = Film(name: "12 years a slave", imageName: "twelveYearsSlave", isMyFavorite: true)
+        let film2 = Film(name: "The Matrix 1", imageName: "matrix1", isMyFavorite: true)
         
         let film3 = Film(name: "Get out", imageName: "getOut", isMyFavorite: true)
         

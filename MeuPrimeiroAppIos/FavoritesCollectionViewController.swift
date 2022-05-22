@@ -11,6 +11,8 @@ private let reuseIdentifier = "Cell"
 
 class FavoritesCollectionViewController: UICollectionViewController {
 
+    var favoriteFilms:[Film] = DataFilms.getFavoriteFilms()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,15 +45,17 @@ class FavoritesCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of items
-        return DataFilms.films.count
+        return favoriteFilms.count
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        //Creating an object of type cell
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cellFavorite", for: indexPath) as! CollectionViewCell
         
-        cell.imageViewFavorite.image = UIImage(named: DataFilms.films[indexPath.row].imageName)
+        cell.imageViewFavorite.image = UIImage(named:
+            favoriteFilms[indexPath.row].imageName)
         
-        cell.lblTitleFavorite.text = DataFilms.films[indexPath.row].name
+        cell.lblTitleFavorite.text = favoriteFilms[indexPath.row].name
         
     
         // Configure the cell
