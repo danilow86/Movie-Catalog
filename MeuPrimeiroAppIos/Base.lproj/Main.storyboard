@@ -175,7 +175,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Vax-L9-7wd">
-                            <size key="itemSize" width="156" height="219"/>
+                            <size key="itemSize" width="395" height="259"/>
                             <size key="estimatedItemSize" width="414" height="264"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -183,18 +183,18 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="redraw" reuseIdentifier="cellFavorite" id="tUk-Fe-tZe" userLabel="Collection View Cell" customClass="CollectionViewCell" customModule="MeuPrimeiroAppIos" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="156" height="219"/>
+                                <rect key="frame" x="9.5" y="0.0" width="395" height="259"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="156" height="219"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="395" height="259"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VJe-wg-9Ux">
-                                            <rect key="frame" x="8" y="57" width="141" height="79"/>
+                                            <rect key="frame" x="117" y="0.0" width="162" height="182"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ed-YX-Hbz">
-                                            <rect key="frame" x="43" y="146" width="127" height="53"/>
+                                            <rect key="frame" x="171" y="186" width="54" height="53"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" systemColor="linkColor"/>
@@ -203,7 +203,7 @@
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <size key="customSize" width="156" height="219"/>
+                                <size key="customSize" width="395" height="259"/>
                                 <connections>
                                     <outlet property="imageViewFavorite" destination="VJe-wg-9Ux" id="pup-91-BZH"/>
                                     <outlet property="lblTitleFavorite" destination="1ed-YX-Hbz" id="4hJ-ms-NUy"/>
